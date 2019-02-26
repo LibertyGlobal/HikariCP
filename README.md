@@ -1,3 +1,14 @@
+### This is a custom/fixed version of HikariCP which is here because we're waiting when this PR will be merged:
+### https://github.com/brettwooldridge/HikariCP/pull/1331
+
+### TODO: remove this fork when [PR](https://github.com/brettwooldridge/HikariCP/pull/1331) will be merged to the main HikariCP repository and new version of the HikariCP will be released.
+
+### How to deploy it to our nexus repository
+
+1. Use JDK 9
+2. Change version in ``pom.xml``
+3. run ``mvn clean deploy -Pnexus``
+
 <h1><img src="https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi·ka·ri [hi·ka·'lē] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>
 
 [![][Build Status img]][Build Status]
